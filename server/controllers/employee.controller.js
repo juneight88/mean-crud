@@ -58,4 +58,5 @@ router.delete('/:id', validateDbId, (req, res) => {
         .catch(err => next(err))
 })
 
+module.exports = router
 
