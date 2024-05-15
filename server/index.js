@@ -1,9 +1,6 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const cors = require('cors')
-
-
-const connectDb = require('./db.js')
 const employeeRoutes = require('./controllers/employee.controller')
 const { errorHandler } = require('./middlewares')
 
