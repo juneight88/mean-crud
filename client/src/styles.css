@@ -1,0 +1,49 @@
+
+form label {
+    color: grey;
+    text-transform: uppercase;
+}
+
+form input {
+    font-weight: 500;
+}
+
+form input::placeholder {
+    color: grey !important;
+    font-weight: 300 !important;
+}
+
+.custom-btn {
+    background-color: #B0EBB4; /* Your custom color */
+    border-color: #B0EBB4; /* Match border color with background color */
+    color: #ffffff; /* Adjust text color for better contrast */
+}
+
+.custom-btn:hover,
+.custom-btn:active {
+    background-color: #82BF88; /* Adjusted color for hover and active states */
+}
+
+
+
+form.ng-invalid.submitted input.ng-invalid {
+    border-color: #b02a37;
+}
+
+
+table tr td:not(:last-child):hover {
+    cursor: pointer;
+}
+
+table tr td:last-child>i:hover {
+    cursor: pointer;
+}
+
+table thead th{
+    color: gray !important;
+}
+
+.text-bg-custom {
+    background-color: #BFF6C3;
+    color: #333;
+}
